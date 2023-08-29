@@ -20,9 +20,8 @@ app.get('/app2', (req, res) => {
   res.send('Hello this App 2!')
 });
 
-
-app.get('/syauqi, (req, res) => {
-  res.send('Hello this Njajal app!')
+app.get('/syauqi', (req, res) => {
+  res.send('Hello this Njajal App')
 });
 
 app.get('/users', (req, res, next) => {
